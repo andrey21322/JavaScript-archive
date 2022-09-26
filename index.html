@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Task 1</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <div class="tags">
+                <div>Name</div>
+                <div>Created</div>
+                <div>Category</div>
+                <div>Content</div>
+                <div>Dates</div>
+                <div class="btns-div">
+                    <i class="fa fa-archive"></i>
+                    <i class="fa fa-pencil"></i>
+                    <i class="fa fa-trash-o"></i>
+                </div>
+            </div>
+            <div id="wrapper"></div>
+        </div>
+
+        <div class="add-btn">
+            <a href="#" class="glow-button">Create Note</a>
+        </div>
+
+        <div>
+            <div class="archive-tags">
+                <div>Note Category</div>
+                <div>active</div>
+                <div>archive</div>
+            </div>
+            <div class="archive-content">
+                
+            </div>
+        </div>
+
+        <form class="add-form">
+            <div class="name-div">
+                <input id="name" type="name" placeholder="Name">
+            </div>
+            <div>
+                <select id="select">
+                    <option value="Task">Task</option>
+                    <option value="Idea">Idea</option>
+                    <option value="Random Thought">Random Thought</option>
+                </select>
+            </div>
+            <div>
+                <input id="content" type="textarea" placeholder="Youre Content">
+            </div>
+            <div>
+                <input id="date" type="date">
+                <input class="updatedDate" id="updatedDate" type="date">
+            </div>
+            <div class="add-form_btn">
+                <button class="add-form-btn"></button>
+                <button class="cancel-form-btn">CANCEL</button>
+            </div>
+        </form>
+
+        <div class="item-wrapper">
+
+            <div class="close-item-btn"><i class="fa fa-times" ></i></div>
+            
+            <h1>Category</h1>
+        </div>
+        <div class='error-div'></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
