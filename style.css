@@ -1,0 +1,79 @@
+*{
+    font-family: "Gill Sans", sans-serif;
+}
+body{
+    background-color: #233A4e;
+}
+i{
+    margin-right: 3px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.tags, .content, .archive-tags, .archive-wrapper{
+    margin: 10px 0 20px 0;
+    align-items: center;
+    display: flex;
+    color: white;
+    border-radius: 10px;
+    background-color: grey;
+    padding: 10px;
+    text-align: left;
+    font-size: large;
+}
+.tags div{
+    width: 220px;
+}
+.tags .btns-div{
+    width: 80px;
+    text-align: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.content div{
+    width: 220px;
+}
+.content, .archive-wrapper{
+    margin-bottom: 15px;
+    background-color: rgb(121, 121, 225);
+    transition: 1s ease;
+    cursor: pointer;
+}
+.archive-wrapper{
+    background-color: #511069;
+}
+.content .btns-div{
+    width: 80px;
+    text-align: right;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.archive-tags{
+    margin-top: 100px;
+}
+.archive-tags div{
+    width: 400px;
+}
+.archive-content div{
+    width: 1181px;
+}
+.add-btn{
+    text-align: right;
+    margin-right: 20px;
+}
+.glow-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #6D67BE inset, 0 0 0 0 #6D67BE;
+    letter-spacing: 1px;
+    color: white;
+    transition: .15s ease-in-out;
+}
+.glow-button:hover {
+    box-shadow: 0 0 10px 0 #6D67BE inset, 0 0 10px 4px #6D67BE;
+    color: #6D67BE;
+}
