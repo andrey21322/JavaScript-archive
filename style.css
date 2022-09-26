@@ -48,7 +48,7 @@ i{
     text-align: right;
     cursor: pointer;
     margin-right: 10px;
-
+    
 }
 .archive-tags{
     margin-top: 100px;
@@ -100,6 +100,10 @@ i{
     padding: 10px 10px;
     border: none;
     border-radius: 10px;
+}
+.updatedDate{
+    display: none;
+    margin: 0 0 10px 140px;
 }
 .add-form select{
     width: 320px;
